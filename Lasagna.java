@@ -2,7 +2,7 @@
  * This class will teach you how to make Lasagna in 3 steps!
  *
  * @author Mykhailo Kosenko
- * @version 11/20/2022
+ * @version 11/26/2022
  */
 import java.util.Scanner;
 
@@ -101,7 +101,7 @@ public class Lasagna
         }
         do{
             System.out.println("To uncover lasagna press U on your keyboard and press Enter: ");
-            user.uncover = kboard.nextLine();
+            user.uncover = kboard.next();
         }while(!(user.uncover.equalsIgnoreCase("U")));
 
         System.out.println("To wait just write amount of minutes you need: ");
